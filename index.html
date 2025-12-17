@@ -7,32 +7,56 @@
 </head>
 <body>
 
-<h1>Información Turística</h1>
-<div class="contenido">
-    <h2 id="lugar"></h2>
-    <p id="descripcion"></p>       
-    <h3>Ubicacion</h3>
-    <p><strong>Región:</strong> <span id="region"></span></p>
-    <p><strong>País:</strong> <span id="pais"></span></p>
+<header class="header">
+    <!-- Link izquierdo -->
+    <a href="https://franco-vs.github.io/json/" class="header-link left">Super H</a>
 
-    <h3>Actividades</h3>
-    <ul id="actividades"></ul>
+    <h1>Información Turística</h1>
 
-    <h3>Gastronomía</h3>
-    <ul id="gastronomia"></ul>
+    <!-- Link derecho -->
+    <a href="https://github.com/TU-USUARIO" target="_blank" class="header-link right">
+        GitHub
+    </a>
+</header>
 
-    <h3>Horario</h3>
-    <p id="horario"></p>
+<main class="contenedor">
+    <section class="card principal">
+        <h2 id="lugar"></h2>
+        <p id="descripcion"></p>
+    </section>
 
-    <h3>Precio</h3>
-    <p id="precio"></p>
+    <section class="card">
+        <h3>📍 Ubicación</h3>
+        <p><strong>Región:</strong> <span id="region"></span></p>
+        <p><strong>País:</strong> <span id="pais"></span></p>
+    </section>
 
-    <div class="contacto">
-        <h3>Contacto</h3>
+    <section class="card">
+        <h3>🏞️ Actividades</h3>
+        <ul id="actividades"></ul>
+    </section>
+
+    <section class="card">
+        <h3>🍽️ Gastronomía</h3>
+        <ul id="gastronomia"></ul>
+    </section>
+
+    <section class="card">
+        <h3>⏰ Horario</h3>
+        <p id="horario"></p>
+    </section>
+
+    <section class="card">
+        <h3>💲 Precio</h3>
+        <p id="precio"></p>
+    </section>
+
+    <section class="card contacto">
+        <h3>📞 Contacto</h3>
         <p><strong>Email:</strong> <span id="email"></span></p>
         <p><strong>Teléfono:</strong> <span id="telefono"></span></p>
-    </div>
-</div>
+    </section>
+</main>
 
 <script src="script.js"></script>
 </body>
