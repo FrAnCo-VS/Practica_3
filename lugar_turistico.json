@@ -1,0 +1,21 @@
+{
+    "lugar": "Las torres del Paine",
+    "ubicacion": {
+        "region": "Regioin de magallanes y de la antartica chilena.",
+        "pais": "Chile" },
+    "descripcion": "Es uno de los parques mas visitados por sus paisajes naturales.",
+    "actividades": [
+        "Senderismo", 
+        "camping", 
+        "Fotografia"],   
+    "gastronomia": [
+        "Cordero patagonico",  
+        "Asado"], 
+    "horario": "08:00 - 18:00",
+    "precios": "CLP 150",
+    "contactos": {  
+        "email": "info@torrespaine.clp",
+        "telefono": "+569-98596006"
+    }
+  
+}
